@@ -57,12 +57,6 @@ a:hover {
   cursor: pointer;
 }
 
-.btn-arrow {
-  width: 62px;
-  height: 62px;
-  border-radius: 50%;
-}
-
 .btn-1:hover,
 .btn-2:hover {
   background: #e47209;
@@ -75,6 +69,12 @@ a:hover {
   text-transform: uppercase;
 }
 
+.btn-arrow {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+
 h1 {
   font-size: 114px;
   font-weight: 700;
@@ -85,6 +85,7 @@ h2 {
   font-size: 48px;
   font-weight: 400;
   line-height: 120%;
+  text-align: center;
 }
 
 h3 {
@@ -115,12 +116,12 @@ figure {
   margin: 0;
 }
 
-.white {
-  color: #fff;
+fieldset {
+  border: none;
 }
 
-.white:hover {
-  color: orange;
+.white {
+  color: #fff;
 }
 
 .orange {
@@ -139,4 +140,15 @@ figure {
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.stretch {
+  justify-content: space-between;
+  align-items: stretch;
 }
