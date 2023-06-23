@@ -67,16 +67,16 @@ body * {
   padding: 0;
 }
 
-.outer-container {
-  width: 100%;
+/* .outer-container {
+  position: relative; 
   max-width: 1600px;
   margin: 0 auto;
-}
+} */
 
 .inner_container {
-  width: 100%;
   max-width: 1160px;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
 }
 
 a {
